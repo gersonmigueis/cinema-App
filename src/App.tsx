@@ -1,7 +1,10 @@
+import { BrowserRouter as Router} from 'react-router-dom';
+import Routes from './routes';
 function App() {
   return (
-    <h1>Gerson</h1>
+   <Router>
+     <Routes />
+   </Router>
   );
 }
-
 export default App;
